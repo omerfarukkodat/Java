@@ -14,9 +14,9 @@ public class Main {
         System.out.println(karakterler);
         System.out.println(mesaj.indexOf("v"));
         System.out.println(mesaj.lastIndexOf("a"));
-        String yeniMesaj = mesaj.replace(' ','-');
+        String yeniMesaj = mesaj.replace(' ', '-');
         System.out.println(yeniMesaj);
-        System.out.println(mesaj.substring(2,9));
+        System.out.println(mesaj.substring(2, 9));
         for (String kelime : mesaj.split(" ")) {
             System.out.println(kelime);
         }
